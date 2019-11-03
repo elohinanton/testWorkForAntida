@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/index.css">
+</head>
+<body>
+    <header>    <!-- обернуть в контейнер и ограничить максимальную ширину -->
+        <div class="logo">
+            <a href="#inputSect">
+                <h1>logo</h1>
+            </a>
+        </div>
+        <nav>
+            <div class="header__nav-button">
+                <a class="header__nav-button-text" href="#helloSect">Обо мне</a>
+            </div>
+            <div class="header__nav-button">
+                <a class="header__nav-button-text" href="#mySkill">Мой скилл</a>
+            </div>
+            <div class="header__nav-button">
+                <a class="header__nav-button-text" href="#communication">Контакты</a>
+            </div>
+        </nav>
+    </header>
+    <section id="inputSect">
+        <h1>Привет !</h1>
+        <a id="inputSect__button" href="#helloSect">обо мне ?</a>
+    </section> 
+    <section id="helloSect">
+        <div class="my-photo">
+        </div>
+        <h2 class="helloSect__header">Антон<br>Елохин</h2>
+        <p class="helloSect__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quidem aut exercitationem, corrupti minus expedita pariatur eius, laboriosam recusandae sunt ducimus dignissimos nam ullam facilis laborum ut. Quae, accusamus necessitatibus.
+        Quasi facere unde debitis dolore odio excepturi nulla assumenda nemo nostrum ratione molestiae veniam incidunt et architecto non, voluptas autem? Laudantium perferendis temporibus magni. Repellendus quidem inventore tempore dolores harum.
+        Ea voluptate autem voluptates. Sapiente hic repudiandae voluptatibus! Nesciunt ullam repudiandae id, consequatur suscipit, corrupti corporis eum optio modi inventore et? Esse earum odit provident voluptatem debitis voluptatibus quos numquam!
+        Odio voluptate vel modi libero, blanditiis neque. Ipsam eius impedit delectus alias distinctio libero earum veritatis cum ducimus, odio deleniti pariatur explicabo, incidunt inventore voluptate in veniam accusamus temporibus non.
+        </p>
+    </section>
+    <section id="mySkill">
+        <div class="mySkill__heading">
+            <h1>что я умею:</h1>
+        </div>
+        <div class="myScill__payload">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>
+                    <ul>
+                        <li>Flexbox</li>
+                        <li>Grid</li>
+                    </ul>
+                </li>
+                <li>JS</li>
+                <li>
+                    <ul>
+                        <li>Vue</li>
+                    </ul>
+                </li>
+                <li>GIT</li>
+            </ul>
+        </div>
+    </section>
+    <section id="communication">
+        <div class="communication__heading">
+            <h1>Давай общаться =)</h1>
+        </div>
+        <div class="communication__payload">
+            <a href="https://vk.com/anton_elohin">
+                <div>
+                    <img src="https://vk.com/images/brand/vk-logo--fb.png" alt="VK">
+                    <h3>ВКонтакте</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+<script src="/src/js/script.js"></script>
+</body>
+</html>
