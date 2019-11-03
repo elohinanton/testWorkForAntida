@@ -93,10 +93,6 @@ a{
                 margin: 0;
             }
 
-    footer{
-        height: 25vh;
-        background-color: var(--colorB);
-    }
 
     section{
         height: 100vh;
@@ -111,7 +107,7 @@ a{
             margin: 0;
         }
 
-    #inputSect{
+    #inputSect, .easyTemplate {
         margin-top: 5vh;
         width: 100%;
         display: flex;
@@ -122,21 +118,17 @@ a{
         justify-content: center;
     }
 
-        #inputSect h1 {
+        #inputSect h1, .easyTemplate h1 {
             font-size: 240%;
         }
 
-        #inputSect a{
+        #inputSect a, .easyTemplate a{
             border-radius: 1em;
             padding: .75em 1.25em;
             margin-top: 2em;
             font-size: 150%;
             border: solid .25em var(--color3);
         }
-
-            #inputSect a :hover {
-                background-color: var(--color3);
-            }
 
     #helloSect{
         background-image: url(/src/img/background1.jpg);
@@ -270,3 +262,11 @@ a{
             .communication__payload h3{
                 padding-right: 3em;
             }
+
+    #github>a>div{
+        display: flex;
+    }
+
+        #github img{
+            height: 3em;
+        }
