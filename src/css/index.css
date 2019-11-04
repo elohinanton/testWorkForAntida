@@ -131,7 +131,7 @@ a{
         }
 
     #helloSect{
-        background-image: url(src/img/background1.jpg);
+        background-image: url(../img/background1.jpg);
         
         background-position-x: right;
         background-position-y: bottom;
@@ -150,7 +150,7 @@ a{
             grid-column: 2/4;
             grid-row: 2/-2;
             max-width: 35em;
-            background-image: url(src/img/my-photo.jpg);
+            background-image: url(../img/my-photo.jpg);
             background-position-x: center;
             background-position-y: top;
             background-repeat: no-repeat;
