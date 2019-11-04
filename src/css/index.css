@@ -23,7 +23,7 @@ body{
     margin: 0;
 }
 
-p, a{
+p, a, li{
     font-family: 'Open Sans', sans-serif;
     margin:0;
     color: var(--colorB)
@@ -200,46 +200,49 @@ a{
 
         .mySkill__heading h1, .communication__heading h1{
             text-transform: uppercase;
-            font-size: 300%;
+            font-size: 4em;
             text-align: center;
             width: fit-content;
-
-
         }
 
-        .mySkill__heading h1, .myScill__payload, .communication__heading h1, .communication__payload{
+        .mySkill__heading h1, .mySkill__payload, .communication__heading h1, .communication__payload{
             margin: 50vh auto 0 auto;
             transform: translateY(-50%);            
         }
+
     #mySkill{
         background-color: var(--color4);
     }
-
-            .mySkill>div{
-                margin: 50vh auto;
-                transform: translateY(-50%);
-            }
 
         .mySkill__heading{
             height: 100%;
         }
             .mySkill__heading h1{
                 background-color:var(--color3);
-                /* width: 5em; */
-                
             }
-        .mySkill__payload{
-            background-color: var(--color1);
-        }
+
+            .mySkill__payload{
+                transform: translateY(-40%);
+                font-size: 1.5em;
+            } 
+
+            .mySkill__payload>ul{
+                background-color: var(--color1);
+                padding: 1em 2em;
+                border-radius: .25em;
+            }
+                .mySkill__payload li{
+                    list-style-type: none;
+                }
 
     #communication{
         background-color: var(--color3);
         margin: 0;
     }
-
+/* 
         .communication__heading{
             width: 25em;
-        }
+        } */
 
             .communication__heading h1{
                 background-color: var(--color1);
